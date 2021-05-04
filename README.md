@@ -12,7 +12,7 @@ pip install git+https://github.com/nhartwic/3d-dna.git
 
 Once installed, you will get two new scripts added to your path: 
 1. run-asm-pipeline
-2. run-asm-pipeline-post-review. 
+2. run-asm-pipeline-post-review 
 
 These scripts only exist to pass on arguments to their equivalents within 3ddna:
 1. run-asm-pipeline.sh
