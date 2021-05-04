@@ -1,0 +1,13 @@
+name: 3d-dna
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - lastz
+  - openjdk
+  - python = 2.7
+  - scipy
+  - numpy
+  - matplotlib
+  - parallel
+  - pip
