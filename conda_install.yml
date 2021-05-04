@@ -1,0 +1,15 @@
+name: 3d-dna
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - lastz
+  - java
+  - python = 2.7
+  - scipy
+  - numpy
+  - matplotlib
+  - parallel
+  - pip
+  - pip:
+    - git+https://github.com/nhartwic/3d-dna.git
