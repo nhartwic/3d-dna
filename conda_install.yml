@@ -4,7 +4,7 @@ channels:
   - bioconda
 dependencies:
   - lastz
-  - java
+  - openjdk
   - python = 2.7
   - scipy
   - numpy

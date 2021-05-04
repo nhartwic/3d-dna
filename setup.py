@@ -21,6 +21,6 @@ setup(
         ]
     },
     package_data={
-        f"{workflow_name}": package_files
+        workflow_name: package_files
     },
 )
