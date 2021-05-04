@@ -1,4 +1,4 @@
-This repo exists to allow for installing 3ddna into a conda environment using pip. To do so, do something like...
+This repo exists to allow for installing 3ddna into a conda environment using pip. To do so, do something like:
 
 ```
 # install into new environment
@@ -10,4 +10,12 @@ conda install -c conda-forge -c bioconda lastz openjdk python=2.7 scipy numpy ma
 pip install git+https://github.com/nhartwic/3d-dna.git
 ```
 
-...Once installed, you will get two new scripts added to your path: run-asm-pipeline and run-asm-pipeline-post-review. These scripts only exist to pass on arguments to their equivalents within 3ddna: run-asm-pipeline.sh and run-asm-pipeline-post-review.sh. For more information on these tools, check the [docs for 3ddna](pip_3d_dna/README.md).
+Once installed, you will get two new scripts added to your path: 
+1. run-asm-pipeline
+2. run-asm-pipeline-post-review. 
+
+These scripts only exist to pass on arguments to their equivalents within 3ddna:
+1. run-asm-pipeline.sh
+2. run-asm-pipeline-post-review.sh
+
+For more information on these tools, check the [docs for 3ddna](pip_3d_dna/README.md).
