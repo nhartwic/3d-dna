@@ -8,11 +8,11 @@ mainsh = resource_filename(workflow, 'run-asm-pipeline-post-review.sh')
 postsh = resource_filename(workflow, 'run-asm-pipeline.sh')
 
 def run_asm_pipeline():
-    subprocess.call([mainsh] + sys.argv[1:])
+    subprocess.call(["bash", mainsh] + sys.argv[1:])
 
 
 def run_asm_pipeline_post_review():
-    subprocess.call([postsh] + sys.argv[1:])
+    subprocess.call(["bash", postsh] + sys.argv[1:])
 
 
 
