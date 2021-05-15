@@ -26,6 +26,11 @@
 # 3D-DNA de novo genome assembly pipeline.
 #
 
+echo $1 >&2
+echo $2 >&2
+pwd >&2
+echo "this message should happen" >&2
+
 version=180922
 
 echo `readlink -f $0`" "$*
@@ -595,8 +600,6 @@ fi
 
 ############### HANDLE ARGUMENTS ###############
 
-echo $1 >$2
-echo $2 >$2
 [ -z $1 ] || [ -z $2 ] && echo >&2 "Not sure how to parse your input: files not listed or not found at expected locations. Exiting!" && echo >&2 "$USAGE_short" && exit 1
 
 [ ! -s $1 ] || [ ! -s $2 ] && echo >&2 "Not sure how to parse your input: files not listed or not found at expected locations. Exiting!" && echo >&2 "$USAGE_short" && exit 1

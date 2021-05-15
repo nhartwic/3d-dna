@@ -4,8 +4,8 @@ import sys
 
 # gets name of this pip module so that you can access 3ddna scripts
 workflow = __name__.split('.')[0]
-mainsh = resource_filename(workflow, 'run-asm-pipeline-post-review.sh')
-postsh = resource_filename(workflow, 'run-asm-pipeline.sh')
+postsh = resource_filename(workflow, 'run-asm-pipeline-post-review.sh')
+mainsh = resource_filename(workflow, 'run-asm-pipeline.sh')
 
 sys.stderr.write(str(sys.argv) + "\n")
 
