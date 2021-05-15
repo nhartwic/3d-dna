@@ -595,8 +595,8 @@ fi
 
 ############### HANDLE ARGUMENTS ###############
 
-echo $1
-echo $2
+echo $1 >$2
+echo $2 >$2
 [ -z $1 ] || [ -z $2 ] && echo >&2 "Not sure how to parse your input: files not listed or not found at expected locations. Exiting!" && echo >&2 "$USAGE_short" && exit 1
 
 [ ! -s $1 ] || [ ! -s $2 ] && echo >&2 "Not sure how to parse your input: files not listed or not found at expected locations. Exiting!" && echo >&2 "$USAGE_short" && exit 1
