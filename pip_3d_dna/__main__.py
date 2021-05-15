@@ -7,6 +7,8 @@ workflow = __name__.split('.')[0]
 mainsh = resource_filename(workflow, 'run-asm-pipeline-post-review.sh')
 postsh = resource_filename(workflow, 'run-asm-pipeline.sh')
 
+print(sys.argv)
+
 def run_asm_pipeline():
     subprocess.call(["bash", mainsh] + sys.argv[1:])
 
