@@ -26,10 +26,7 @@
 # 3D-DNA de novo genome assembly pipeline.
 #
 
-echo $1 >&2
-echo $2 >&2
-pwd >&2
-echo "this message should happen" >&2
+echo $(awk --version) >&2
 
 version=180922
 
